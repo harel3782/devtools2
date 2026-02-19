@@ -16,34 +16,33 @@ This repository contains a collection of 10 Bash scripts designed for various sy
 ### 👨‍💻 Harel's Scripts
 | Script Name | Description |
 | :--- | :--- |
-| `backup_tar.sh` | Backs up a given directory into a `.tar.gz` archive. |
-| `delete_old_files.sh` | Deletes files in a specific directory that are older than X days. |
-| `generate_password.sh` | Generates a random 10-character password containing at least one uppercase letter, one lowercase letter, one number, and one special character. |
-| `user_info.sh` | Displays information about the current user (Username, Home Directory, Groups, Default Shell). |
-| `count_by_extension.sh`| Counts the number of files with a specific extension in a given directory. |
+| `backup_tar.sh` | [cite_start]Backs up a given directory into a `.tar.gz` archive. [cite: 2] |
+| `delete_old_files.sh` | [cite_start]Deletes files in a specific directory that are older than X days. [cite: 6] |
+| `generate_password.sh` | [cite_start]Generates a random 10-character password with complexity requirements. [cite: 8] |
+| `user_info.sh` | [cite_start]Displays information about the current user. [cite: 9] |
+| `count_by_extension.sh`| [cite_start]Counts files with a specific extension in a given directory. [cite: 5] |
 
 ### 👨‍💻 Ori's Scripts
 | Script Name | Description |
 | :--- | :--- |
-| `add_prefix_to_txt.sh` | Adds a specific prefix to all `.txt` files in a given directory. |
-| `disk_usage_per_folder.sh`| Displays the disk usage for all immediate subdirectories within a given directory. |
-| `ascii_clock.sh` | Displays a real-time clock in ASCII characters. |
-| `compare_files.sh` | Compares the contents of two files. |
-| `check_internet.sh` | Checks internet connectivity and logs the result. |
+| `add_prefix_to_txt.sh` | [cite_start]Adds a prefix to all `.txt` files in a given directory. [cite: 1] |
+| `disk_usage_per_folder.sh`| [cite_start]Displays disk usage for all subdirectories. [cite: 7] |
+| `ascii_clock.sh` | [cite_start]Displays a real-time clock in ASCII characters. [cite: 10] |
+| `compare_files.sh` | [cite_start]Compares the contents of two files using diff. [cite: 4] |
+| `check_internet.sh` | [cite_start]Checks internet connectivity and logs the result. [cite: 3] |
 
 ---
 
 ## ⚙️ How to Run the Scripts
 
 ### 1️⃣ Grant Execution Permissions
-Before running any script, grant execution permissions to all files in the scripts directory. Run the following command from the project's root directory:
-
+Before running any script, grant execution permissions to all files in the scripts directory:
 ```bash
 	chmod +x scripts/*.sh
 ```
 
 ### 2️⃣ Execution Commands
-Run the scripts from the root directory using the `./scripts/` path. The examples below use local repository directories and files for testing:
+Run the scripts from the root directory using the `./scripts/` path. The examples below use the dedicated test folders:
 
 **Harel's Scripts:**
 ```bash
@@ -54,11 +53,11 @@ Run the scripts from the root directory using the `./scripts/` path. The example
 	./scripts/count_by_extension.sh ./scripts sh
 ```
 
-**Ori's Scripts:**
+**Ori's Scripts (Using ori_tests directory):**
 ```bash
-	./scripts/add_prefix_to_txt.sh ./scripts testprefix_
-	./scripts/disk_usage_per_folder.sh ./scripts
+	./scripts/add_prefix_to_txt.sh ./ori_tests/prefix_test test_
+	./scripts/disk_usage_per_folder.sh ./ori_tests/disk_test
 	./scripts/ascii_clock.sh
-	./scripts/compare_files.sh ./scripts/myprefix_test1.txt ./scripts/test2.txt
+	./scripts/compare_files.sh ./ori_tests/compare_test/file1.txt ./ori_tests/compare_test/file2.txt
 	./scripts/check_internet.sh
 ```
