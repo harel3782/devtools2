@@ -40,3 +40,17 @@ Before running any script, grant execution permissions to all files in the scrip
 
 ```bash
 	chmod +x scripts/*.sh
+```
+
+2. Execution Commands
+Run the scripts from the root directory using the ./scripts/ path, providing arguments where necessary:
+
+Harel's Scripts:
+
+```bash
+	./scripts/backup_tar.sh <directory_to_backup>
+	./scripts/delete_old_files.sh <directory> <days>
+	./scripts/generate_password.sh
+	./scripts/user_info.sh
+	./scripts/count_by_extension.sh <directory> <extension>
+```
