@@ -27,7 +27,7 @@ This repository contains a collection of 10 Bash scripts designed for various sy
 | :--- | :--- |
 | `add_prefix_to_txt.sh` | Adds a specific prefix to all `.txt` files in a given directory. |
 | `disk_usage_per_folder.sh`| Displays the disk usage for all immediate subdirectories within a given directory. |
-| `port_scan.sh` | Scans a range of ports on a specific IP address to see which are open. |
+| `ascii_clock.sh` | Displays a real-time clock in ASCII characters. |
 | `compare_files.sh` | Compares the contents of two files. |
 | `check_internet.sh` | Checks internet connectivity and logs the result. |
 
@@ -43,7 +43,7 @@ Before running any script, grant execution permissions to all files in the scrip
 ```
 
 ### 2️⃣ Execution Commands
-Run the scripts from the root directory using the `./scripts/` path. 
+Run the scripts from the root directory using the `./scripts/` path. The examples below use local repository directories and files for testing:
 
 **Harel's Scripts:**
 ```bash
@@ -58,7 +58,7 @@ Run the scripts from the root directory using the `./scripts/` path.
 ```bash
 	./scripts/add_prefix_to_txt.sh ./scripts testprefix_
 	./scripts/disk_usage_per_folder.sh ./scripts
-	./scripts/port_scan.sh 127.0.0.1 80-85
+	./scripts/ascii_clock.sh
 	./scripts/compare_files.sh ./scripts/myprefix_test1.txt ./scripts/test2.txt
 	./scripts/check_internet.sh
 ```
