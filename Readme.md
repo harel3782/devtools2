@@ -43,22 +43,22 @@ Before running any script, grant execution permissions to all files in the scrip
 ```
 
 ### 2️⃣ Execution Commands
-Run the scripts from the root directory using the `./scripts/` path, providing arguments where necessary:
+Run the scripts from the root directory using the `./scripts/` path. The examples below use local repository directories and files for testing:
 
 **Harel's Scripts:**
 ```bash
-	./scripts/backup_tar.sh <directory_to_backup>
-	./scripts/delete_old_files.sh <directory> <days>
+	./scripts/backup_tar.sh ./scripts
+	./scripts/delete_old_files.sh ./scripts 5
 	./scripts/generate_password.sh
 	./scripts/user_info.sh
-	./scripts/count_by_extension.sh <directory> <extension>
+	./scripts/count_by_extension.sh ./scripts sh
 ```
 
 **Ori's Scripts:**
 ```bash
-	./scripts/add_prefix_to_txt.sh <directory> <prefix>
-	./scripts/disk_usage_per_folder.sh <directory>
-	./scripts/port_scan.sh <ip_address> <start_port-end_port>
-	./scripts/compare_files.sh <file1> <file2>
+	./scripts/add_prefix_to_txt.sh ./scripts testprefix_
+	./scripts/disk_usage_per_folder.sh ./scripts
+	./scripts/port_scan.sh 127.0.0.1 80-85
+	./scripts/compare_files.sh ./scripts/user_info.sh ./scripts/generate_password.sh
 	./scripts/check_internet.sh
 ```
