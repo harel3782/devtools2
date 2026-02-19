@@ -1,8 +1,8 @@
 # 📜 Bash Scripting Project - Homework 2
 
 ## 👥 Team Members
-*	**Harel**
-*	**Ori**
+*	**Harel Mashiah 206375081**
+*	**Ori Marko 318846615**
 
 ---
 
@@ -16,20 +16,20 @@ This repository contains a collection of 10 Bash scripts designed for various sy
 ### 👨‍💻 Harel's Scripts
 | Script Name | Description |
 | :--- | :--- |
-| `backup_tar.sh` | [cite_start]Backs up a given directory into a `.tar.gz` archive. [cite: 2] |
-| `delete_old_files.sh` | [cite_start]Deletes files in a specific directory that are older than X days. [cite: 6] |
-| `generate_password.sh` | [cite_start]Generates a random 10-character password with complexity requirements. [cite: 8] |
-| `user_info.sh` | [cite_start]Displays information about the current user. [cite: 9] |
-| `count_by_extension.sh`| [cite_start]Counts files with a specific extension in a given directory. [cite: 5] |
+| `backup_tar.sh` | Backs up a given directory into a .tar.gz archive. |
+| `delete_old_files.sh` | Deletes files in a specific directory that are older than X days. |
+| `generate_password.sh` | Generates a random 10-character password with complexity requirements. |
+| `user_info.sh` | Displays information about the current user. |
+| `count_by_extension.sh` | Counts files with a specific extension in a given directory. |
 
 ### 👨‍💻 Ori's Scripts
 | Script Name | Description |
 | :--- | :--- |
-| `add_prefix_to_txt.sh` | [cite_start]Adds a prefix to all `.txt` files in a given directory. [cite: 1] |
-| `disk_usage_per_folder.sh`| [cite_start]Displays disk usage for all subdirectories. [cite: 7] |
-| `ascii_clock.sh` | [cite_start]Displays a real-time clock in ASCII characters. [cite: 10] |
-| `compare_files.sh` | [cite_start]Compares the contents of two files using diff. [cite: 4] |
-| `check_internet.sh` | [cite_start]Checks internet connectivity and logs the result. [cite: 3] |
+| `add_prefix_to_txt.sh` | Adds a prefix to all .txt files in a given directory. |
+| `disk_usage_per_folder.sh` | Displays disk usage for all subdirectories. |
+| `ascii_clock.sh` | Displays a real-time clock in ASCII characters. |
+| `compare_files.sh` | Compares the contents of two files using diff. |
+| `check_internet.sh` | Checks internet connectivity and logs the result. |
 
 ---
 
@@ -61,3 +61,7 @@ Run the scripts from the root directory using the `./scripts/` path. The example
 	./scripts/compare_files.sh ./ori_tests/compare_test/file1.txt ./ori_tests/compare_test/file2.txt
 	./scripts/check_internet.sh
 ```
+
+
+
+
