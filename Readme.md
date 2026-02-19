@@ -54,3 +54,14 @@ Harel's Scripts:
 	./scripts/user_info.sh
 	./scripts/count_by_extension.sh <directory> <extension>
 ```
+Ori's Scripts:
+
+```bash
+	./scripts/add_prefix_to_txt.sh <directory> <prefix>
+	./scripts/disk_usage_per_folder.sh <directory>
+	./scripts/port_scan.sh <ip_address> <start_port-end_port>
+	./scripts/compare_files.sh <file1> <file2>
+	./scripts/check_internet.sh
+```
+
+
